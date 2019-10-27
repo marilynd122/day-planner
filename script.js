@@ -58,7 +58,7 @@ var save_button5 = document.querySelector('#saveNote5');
 //retrieves previously save text to display
 input_textarea5.value = localStorage.getItem('content5');
 //when the Save button is clicked, store the input of the textarea
-saveNote2.addEventListener('click', updateOutput5);
+saveNote5.addEventListener('click', updateOutput5);
 //sets the input of text area into local storage
 function updateOutput5() {
 	localStorage.setItem('content5', input_textarea5.value);
