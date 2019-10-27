@@ -21,6 +21,7 @@ body {
 .row {
   white-space: pre-wrap;
   height: 80px;
+  justify-content: center;
 }
 
 .description{
@@ -32,7 +33,7 @@ body {
   border-radius: 15px;
   padding-top: 15px;
   font-size: 20px;
-  width: 7vw;
+  width:10vw;
 }
 
 textarea {
