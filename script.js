@@ -7,6 +7,12 @@ dateParagraph.text(todayDate);
 });
 
 
+$("#clear").click(function() {
+    localStorage.clear();
+    location.reload()
+});
+
+
 //to save the user's input of text into each time slot....
 
 var input_textarea1 = document.querySelector('#note1');
@@ -107,3 +113,4 @@ saveNote9.addEventListener('click', updateOutput9);
 function updateOutput9() {
 	localStorage.setItem('content9', input_textarea9.value);
 };
+
