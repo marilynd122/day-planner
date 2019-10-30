@@ -12,6 +12,6 @@ This project provides users with a daily planner where they can add their own ev
 ## The final product
  https://wendyhub.github.io/day-planner/
 
-<img src="example1.png" alt="sample picture of daily planner"> 
+<img src="example.png" alt="sample picture of daily planner"> 
 
 
