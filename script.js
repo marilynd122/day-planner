@@ -161,23 +161,23 @@ if (now > 12) {
 
 if (now > 13) {
     $("#note5").addClass("past");
-	}
+    }
     else if (now >= 13 && now < 14) {
         $("#note5").addClass("present");
-	}
+    }
     else if (now < 13) {
-        $("#note").addClass("future");
-	}
+        $("#note5").addClass("future");
+    }
 
 if (now > 14) {
     $("#note6").addClass("past");
-	}
+    }
     else if (now >= 14 && now < 15) {
         $("#note6").addClass("present");
-	}
+    }
     else if (now < 14) {
         $("#note6").addClass("future");
-	}
+    }
 
 if (now > 15) {
     $("#note7").addClass("past");
